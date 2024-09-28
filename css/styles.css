@@ -1,0 +1,120 @@
+/* body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+background-image: url('https://images.hdqwalls.com/wallpapers/bthumb/alan-walker-typography-4k-4y.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* give styles to the header */
+header {
+ 
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Lobster', cursive;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1); 
+   
+}
+
+/* Section styling for lyrics */
+.lyrics {
+    padding: 30px;
+    line-height: 1.7;
+   
+    margin: 30px auto;
+    border-radius: 12px;
+    max-width: 850px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.left {
+    text-align: left;
+    margin: 20px; 
+}
+
+.right {
+    text-align: right;
+    margin: 20px; 
+}
+
+/* Add additional styles for the lyrics */
+.verse {
+    font-family: 'Playfair Display', serif;
+    color: #3498db; 
+    font-size: 1.2em;
+}
+
+.pre-chorus {
+    font-family: 'Lobster', cursive;
+    color: #f39c12; 
+    font-size: 1.1em;
+}
+
+.chorus {
+    font-family: 'Roboto', sans-serif;
+    color: #e74c3c; 
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.bridge {
+    font-family: 'Arial', sans-serif;
+    color: #2ecc71; 
+    font-style: italic;
+    font-size: 1.2em;
+}
+/* gives style to the lyrics heading */
+.heading {
+    font-family: 'Dancing Script', cursive; 
+    color: #f6efef; 
+    text-align: left; 
+    margin: 10px 0; 
+    font-size: 1.5em; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+.right .heading {
+    text-align: right; 
+}
+
+/* Media section styling */
+.media {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.media img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for the image */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+    border-top: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Link styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2c6aa8; /* Darker blue on hover */
+    text-decoration: underline;
+}
